@@ -1,0 +1,29 @@
+
+@media (min-width: 768px) {html { font-size: 62.5%; }  /* =10px */}
+@media (max-width: 767px) {html { font-size: 55%; } } 
+@media (max-width: 480px) {html { font-size: 50%; }}
+body { font-size: 1.4rem; } /* =14px */
+
+.header h2, .header h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    margin: 10px auto;
+    text-align: center;
+}
+.header h2 {
+    color: yellow;
+    font-weight: bold;
+    font-size:  2.4rem;
+}
+.header h4 {
+    font-size: 2rem;
+}
+.header p {
+    text-shadow: 4px 4px 2px black /*rgba(150, 150, 150, 1)*/;
+    font-size:1.6rem;
+    color:white;
+    line-height: 1;
+    font-weight: 400;
+}
+
